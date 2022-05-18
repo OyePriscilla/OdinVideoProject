@@ -1,0 +1,167 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.central-container {
+    width: 100%;
+    min-height: 800px;       
+}
+
+header {    
+    
+}
+
+nav {    
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 16px;
+    align-items: center;
+    background-color: white;
+    position: fixed;      
+}
+
+.marg{   
+    margin-right: 25px;
+}
+
+.hamburger {    
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.hamburger span {
+    position: relative;
+    top: -15px;
+    color: black;
+}
+
+.hamburger ul {
+    display: block;
+    position: relative;
+    top: 132px;    
+  
+}
+
+.hamburger ul li {
+    margin-bottom: 30px;
+    font-size: larger; 
+    text-transform: capitalize;   
+}
+
+.close {
+    position: relative;
+    left: 120px;
+    top: 40px;
+}
+
+.fa-search :hover {
+    
+}
+
+.main-container {
+    width: 100%;
+    height: 1400px;
+    background-color: rgb(245, 244, 244);   
+    clear: both;
+
+}
+
+main {
+    display: block;
+    width: 53%;
+    height: 730px;
+    float: left;     
+   
+}
+
+.main-content {
+    margin-left: 0;
+}
+
+aside {
+    width: 45%;
+    height: 730px;
+    float: right;  
+    
+   
+}
+
+.search-input {
+    width: 600px;
+    height: 40px;   
+    border: 1px solid rgb(230, 221, 221);
+    padding: 6px;
+    font: 14px;
+}
+
+.yt-buttonA {
+    width: 64px;
+    height: 40px;  
+    display: inline-flex;  
+    align-items: center;
+    justify-content: center;   
+}
+
+.yt-buttonA i {
+   
+}
+
+.yt-button-G {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.yt-button-B {    
+    min-width: 20px;   
+    color: white;
+    background-color: black;
+}
+
+.yt-button-Search {   
+    min-width: 150px;    
+}
+
+.yt-button-general {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: row;
+    cursor: pointer;
+    height: 32px;
+    border-radius: 50px;
+    padding: 15px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    border: 1px solid gray;
+}
+
+.likes-menu {
+    display: flex;
+    direction: row;
+    align-items: center; 
+   
+}
+
+.subscribe-div {   
+    width: 77.5%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+}
+
